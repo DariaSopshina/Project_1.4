@@ -1,0 +1,106 @@
+@import url('./fonts/stylesheet.css');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    /* height: 1024px; */
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: "TT Lakes", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.fixed-container {
+    width: 320px;
+    height: 100%;
+    padding: 18px 24px 32px;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 46px;
+    align-items: center;
+}
+
+.header__burger {
+    margin-right: 16px;
+}
+
+.header__logo {
+    margin-right: 78px;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu_border {
+    height: 32px;
+    width: 4px;
+    background-color: #41F6D7;
+    border-radius: 4px;
+    position: absolute;
+    left: -24px;
+}
+
+.menu__vertical {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__vertical li {
+    margin-bottom: 32px;
+}
+
+.menu__vertical a {
+    display: block;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.menu {
+    margin-bottom: 268px;
+}
+
+.language-switcher .lang:hover,
+.menu__vertical a:hover {
+    color: #7E7E82;
+    opacity: 0.7;
+    filter: brightness(1.2);
+}
+
+.contacts__icon {
+    margin-bottom: 16px;
+}
+
+.contacts__icon__phone,
+.contacts__icon__chat,
+.ontacts__icon__profile {
+    margin-right: 16px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.contacts__mail {
+    margin-bottom: 12px;
+}
+
+.contacts__phone {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1B1C21;
+}
