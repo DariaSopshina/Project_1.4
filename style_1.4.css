@@ -7,8 +7,6 @@ html {
 }
 
 body {
-
-    /* height: 1024px; */
     font-size: 16px;
     line-height: 1.4;
     font-family: "TT Lakes", sans-serif;
@@ -24,9 +22,19 @@ body {
 }
 
 .header {
-    display: flex;
     margin-bottom: 46px;
+    display: flex;
     align-items: center;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header__burger {
@@ -68,9 +76,6 @@ body {
     color: #1B1C21;
 }
 
-.menu {
-    margin-bottom: 268px;
-}
 
 .language-switcher .lang:hover,
 .menu__vertical a:hover {
@@ -79,7 +84,12 @@ body {
     filter: brightness(1.2);
 }
 
+.contacts {
+    margin-top: 268px;
+}
+
 .contacts__icon {
+    display: flex;
     margin-bottom: 16px;
 }
 
@@ -103,4 +113,24 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #1B1C21;
+}
+
+.language-switcher {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.language-switcher li {
+    margin: 0;
+}
+
+.lang {
+    margin-right: 7px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
 }
